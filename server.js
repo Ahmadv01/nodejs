@@ -8,6 +8,9 @@ const server = http.createServer((req, res) => {
   if (req.url === "/api") {
     res.end("This is from the server")
   }
+  else {
+    res.end("Bad URL")
+  }
 
 })
 
